@@ -28,16 +28,16 @@
     <title>React App</title>
     <script>
       // Add the JavaScript code here
-      function redirectToSpecificURL() {
-        // Replace 'https://example.com' with the URL you want to open
-        window.location.href = 'https://friendly-plum-culottes.cyclic.app';
-      }
-  
-      window.onbeforeunload = function() {
-        redirectToSpecificURL();
-        // Return a dummy string to show a confirmation message (not supported in all browsers)
-        return 'You are leaving this page. Are you sure?';
-      };
+      window.onload = function() {
+  // Check if the page is being loaded for the first time
+  if (!localStorage.getItem('firstLoad')) {
+    // Set a flag in localStorage to indicate the first load
+    localStorage.setItem('firstLoad', true);
+  } else {
+    // If not the first load, redirect to the specific URL
+    window.location.href = 'https://example.com';
+  }
+};
     </script>
   </head>
   <body>
