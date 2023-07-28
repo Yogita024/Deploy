@@ -27,17 +27,15 @@
     -->
     <title>React App</title>
     <script>
-      // Add the JavaScript code here
-      window.onload = function() {
-  // Check if the page is being loaded for the first time
-  if (!localStorage.getItem('firstLoad')) {
-    // Set a flag in localStorage to indicate the first load
-    localStorage.setItem('firstLoad', true);
-  } else {
-    // If not the first load, redirect to the specific URL
-    window.location.href = 'https://friendly-plum-culottes.cyclic.app';
-  }
-};
+    function checkPageReload(event) {
+      // Chrome and most modern browsers support the `event.persisted` property
+      if (event.persisted) {
+        // Replace 'https://example.com' with the URL you want to open
+        window.location.href = 'https://friendly-plum-culottes.cyclic.app';
+      }
+    }
+
+    window.addEventListener('beforeunload', checkPageReload);
     </script>
   </head>
   <body>
