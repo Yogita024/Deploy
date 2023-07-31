@@ -80,7 +80,7 @@ const ComposeMail = ({openDialog,setOpenDialog}) =>
         e.preventDefault();
         const payload={
             to: Data.to,
-            from: "yadusince2004@gmail.com",
+            from: "xyz@gmail.com",
             subject:  Data.subject,
             body:  Data.body,
             date: new Date(),
@@ -115,7 +115,7 @@ const ComposeMail = ({openDialog,setOpenDialog}) =>
             window.Email.send({
                 ...config,
                 To : Data.to,
-                From : "yadusince2004@gmail.com",
+                From : "xyz@gmail.com",
                 Subject : Data.subject,
                 Body : Data.body, 
             }).then(
@@ -125,12 +125,12 @@ const ComposeMail = ({openDialog,setOpenDialog}) =>
 
         const payload={
             to: Data.to,
-            from: "yadusince2004@gmail.com",
+            from: "xyz@gmail.com",
             subject:  Data.subject,
             body:  Data.body,
             date: new Date(),
             image: '',
-            name: 'Yogita',
+            name: 'xyz',
             starred  : false,
             type : 'sent'
 
