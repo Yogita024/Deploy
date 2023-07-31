@@ -65,8 +65,8 @@ const ComposeMail = ({openDialog,setOpenDialog}) =>
     const saveDraftService=useApi(API_URLS.saveDraftEmails);
     const config={
        
-        Username :"yadusince@yopmail.com",
-        Password :"FA6E9FD0DD7B9181B7CF8CBFBC42097965E6",
+        Username :"xyz@gmail.com",
+        Password :"1234",
         Host : "smtp.elasticemail.com",
         Port: 2525
        
