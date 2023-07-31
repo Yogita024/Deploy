@@ -13,7 +13,7 @@ Welcome to the Gmail Clone Project! This project aims to replicate the core feat
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Pages]
+- [Pages](#pages)
 
 
 ## Introduction
@@ -62,6 +62,7 @@ To run the Gmail Clone Project on your local machine, follow these steps:
 
 We welcome contributions to the Gmail Clone Project! If you find a bug, have a feature request, or want to add improvements, please follow our [Contribution Guidelines](https://example.com/contribution-guidelines) to submit your changes.
 
+##Pages
 ##Main
 <img width="960" alt="main" src="https://github.com/Yogita024/Gmail_Clone/assets/102277141/fd10deb2-cc17-4c5b-af5b-c3da9db00a8f">
 
@@ -79,4 +80,3 @@ We welcome contributions to the Gmail Clone Project! If you find a bug, have a f
 
 Happy coding!
 
-The Gmail Clone Project Team
