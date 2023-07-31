@@ -63,14 +63,14 @@ To run the Gmail Clone Project on your local machine, follow these steps:
 We welcome contributions to the Gmail Clone Project! If you find a bug, have a feature request, or want to add improvements, please follow our [Contribution Guidelines](https://example.com/contribution-guidelines) to submit your changes.
 
 ## Pages
-## Main
+# Main
 <img width="960" alt="main" src="https://github.com/Yogita024/Gmail_Clone/assets/102277141/fd10deb2-cc17-4c5b-af5b-c3da9db00a8f">
 
-## Inbox
+# Inbox
 <img width="957" alt="inbox" src="https://github.com/Yogita024/Gmail_Clone/assets/102277141/63530fc3-f5e6-4cc1-bdd4-97fa9c9945ef">
 
 
-## Compose Mail
+# Compose Mail
 
 
 <img width="769" alt="composemail" src="https://github.com/Yogita024/Gmail_Clone/assets/102277141/0896a0f4-83cf-4513-9196-66893f5ba0df">
