@@ -13,7 +13,7 @@ Welcome to the Gmail Clone Project! This project aims to replicate the core feat
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Pages](#pages)
+- [Pages](#Pages)
 
 
 ## Introduction
